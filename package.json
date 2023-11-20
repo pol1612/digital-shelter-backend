@@ -1,0 +1,22 @@
+{
+  "name": "digital-shelter-backend",
+  "version": "1.0.0",
+  "description": "backend for digital shelter mobile application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pol1612/digital-shelter-backend.git"
+  },
+  "author": "pol sane jove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pol1612/digital-shelter-backend/issues"
+  },
+  "homepage": "https://github.com/pol1612/digital-shelter-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
