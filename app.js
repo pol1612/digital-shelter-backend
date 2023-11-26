@@ -10,5 +10,7 @@ const app = express()
 app.set("port",3050)
 
 app.use(express.json())
+
 app.use(dogsRoutes.dogs)
+
 module.exports = app;

@@ -37,5 +37,8 @@ const fakeDogData = `[
     }
   ]`
 
-  module.exports = fakeDogData
+const getFakeDogsData = (req, res) => {
+  res.json(fakeDogData)
+}
+  module.exports = {getFakeDogsData}
 

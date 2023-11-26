@@ -1,10 +1,9 @@
 const Router = require('express')
-const connection = require('../database/db')
-const dogFakeData = require("../fake-data/dog.data")
+const dogFakeData = require("../controllers/dog.controllers")
 
 const router = Router()
 
-const dogs = router.get("/dog",)
+const dogs = router.get("/fake/dog",dogFakeData.getFakeDogsData)
 
 //const dispositivo = router.get("/dispositivo/:id", moviesControllers.getDispositivo)
 
